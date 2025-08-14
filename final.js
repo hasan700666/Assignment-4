@@ -33,3 +33,27 @@ function bestTeam(player1, player2) {
     }
   }
 }
+
+function isSame(arr1, arr2) {
+  if (Array.isArray(arr1) == true && Array.isArray(arr2) == true) {
+    if (arr1.length == arr2.length) {
+      let i = 0;
+      while (i < arr1.length) {
+        if (typeof arr1[i] == typeof arr2[i]) {
+          if (arr1[i] == arr2[i]) {
+            i++;
+          } else {
+            return false;
+          }
+        } else {
+          return false;
+        }
+      }
+      return true;
+    } else {
+      return false;
+    }
+  } else {
+    return "Invalid";
+  }
+}

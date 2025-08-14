@@ -1,2 +1,4 @@
-{ name: "Brazil", foul: 5, cardY: 1, cardR: 0 },
-    { name: "Argentina", foul: 7, cardY: 0, cardR: 0 }
+let arr = [7489, 43678, 753489];
+let arr2 = [7489, 43678, 753489];
+
+console.log(Array.isArray(arr));
