@@ -15,3 +15,4 @@ function onlyCharacter(str) {
     str = str.toUpperCase();
     return str;
   }
+}
