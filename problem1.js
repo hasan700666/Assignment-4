@@ -14,3 +14,7 @@ console.log(totalFine(552));
 console.log(totalFine(-52));
 console.log(totalFine("65"));
 console.log(totalFine("Gorib tai ticket katinai"));
+
+let a = "fdfgnfdnf fjbfgfabgfdu";
+
+console.log(a.replace(" ", ""));

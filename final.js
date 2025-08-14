@@ -6,3 +6,12 @@ function totalFine(fare) {
     return result;
   }
 }
+
+function onlyCharacter(str) {
+  if (typeof str != "string") {
+    return "Invalid";
+  } else {
+    str = str.replaceAll(" ", "");
+    str = str.toUpperCase();
+    return str;
+  }
